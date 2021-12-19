@@ -1,0 +1,25 @@
+{
+  "name": "service_auction",
+  "version": "1.0.0",
+  "description": "Service auction system",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.4.1",
+    "bn.js": "^5.2.0",
+    "ethereumjs-abi": "^0.6.8"
+  },
+  "devDependencies": {
+    "chai": "^4.3.4",
+    "chai-as-promised": "^7.1.1",
+    "prettier": "^2.5.1",
+    "prettier-plugin-solidity": "^1.0.0-beta.19"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Daniel Graczer",
+  "license": "ISC"
+}
